@@ -44,7 +44,7 @@ nav li:hover {
 }
 
 .color-blue {
-    color: #8B9DC3;
+    color: #6298fc;
 }
 
 .nav-name {
@@ -62,4 +62,85 @@ nav li:hover {
     width: 0.8em;
     height: 0.8em;
     margin-right: 0.5em;
+}
+
+.background-section1 {
+    background-color: #e6dace;
+    width: 42%;
+    height: 50vw;
+}
+
+.bottomDiv {
+    display: flex;
+    position: relative;
+    bottom: 40vw;
+    left: 25vw;
+    height: 30vw;
+    width: 55vw;
+}
+
+.bottomDiv1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    background-color: #f5ece6;
+    -webkit-box-shadow: -11px 10px 22px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -11px 10px 22px -12px rgba(0, 0, 0, 0.75);
+}
+
+.profile-picture {
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    width: 50%;
+    height: fit-content;
+    border-radius: 50%;
+    /* -webkit-box-shadow: -11px 10px 22px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -11px 10px 22px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: -11px 10px 22px -12px rgba(0, 0, 0, 0.75);*/
+}
+
+.profilepic-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.profilepic-role {
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 2vw;
+    letter-spacing: 0.30vw;
+}
+
+.rss-logos {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    background-color: white;
+    height: 4vw;
+    width: 100%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.icon-rss {
+    width: 10%;
+    height: fit-content;
+}
+
+.icon-rss:hover {
+    cursor: pointer;
+}
+
+hr {
+    background-color: #6298fc;
+    width: 20%;
+    margin-top: 1vw;
+    padding-top: 0.05vw;
 }
