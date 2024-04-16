@@ -15,12 +15,14 @@ nav {
 nav li {
     font-size: 0.9em;
     text-align: center;
-    padding: 5em 1em;
+    padding: 4em 1em;
     width: 10vw;
 }
 
 nav li:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+    transition: 400ms;
 }
 
 .flex {
@@ -42,7 +44,7 @@ nav li:hover {
 }
 
 .color-blue {
-    color: #8BBDFF;
+    color: #8B9DC3;
 }
 
 .nav-name {
