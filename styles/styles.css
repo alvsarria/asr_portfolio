@@ -112,12 +112,12 @@ p {
 
 .profile-picture {
     margin-top: 2vw;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
     width: 50%;
     height: 180px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: -11px 10px 22px -12px rgba(0, 0, 0, 0.75)
+    /* box-shadow: -11px 10px 22px -12px rgba(0, 0, 0, 0.75) */
 }
 
 .profilepic-name {
