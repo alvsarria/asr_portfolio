@@ -11,6 +11,7 @@ body section {
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 nav {
@@ -120,7 +121,7 @@ p {
     height: 180px;
     object-fit: cover;
     border-radius: 50%;
-    /* box-shadow: -11px 10px 22px -12px rgba(0, 0, 0, 0.75) */
+    box-shadow: -11px 10px 22px -12px rgba(0, 0, 0, 0.75)
 }
 
 .profilepic-name {
