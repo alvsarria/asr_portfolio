@@ -12,6 +12,7 @@ body section {
 a{
     text-decoration: none;
     color: black;
+    width: auto;
 }
 
 nav {
@@ -151,15 +152,18 @@ p {
     padding-right: 2vw;
 }
 
-.icon-rss {
+.rss-logos a{
     width: 7.5%;
-    height: fit-content;
+}
+
+.icon-rss {
+    width: 100%;
     /* padding-right: 0.35vw; */
     /* padding-left: 0.35vw; */
 
 }
 
-.icon-rss:hover {
+.rss-logos a:hover {
     transition: 400ms;
     /* border-radius: 50%; */
     width: 15%;
