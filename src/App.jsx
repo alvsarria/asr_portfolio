@@ -1,7 +1,15 @@
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+import Home from "./pages/Home";
+
 function App() {
 
   return (
-    <h1>LOL</h1>
+    <>
+      <NavBar />
+      <Home />
+      <Footer />
+    </>
   );
 }
 
